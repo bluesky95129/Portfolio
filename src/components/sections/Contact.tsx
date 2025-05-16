@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
                   <div className={`p-2 rounded-full ${theme === 'neon' ? 'bg-neon-blue/10' : 'bg-primary-100'}`}>
                     <Mail className={`w-5 h-5 ${theme === 'neon' ? 'text-neon-blue' : 'text-primary-600'}`} />
                   </div>
-                  <span>example@example.com</span>
+                  <span>bluesky950129@gmail.com</span>
                 </a>
 
                 <a 
@@ -88,10 +88,10 @@ const Contact: React.FC = () => {
                   <div className={`p-2 rounded-full ${theme === 'neon' ? 'bg-neon-blue/10' : 'bg-primary-100'}`}>
                     <GitHub className={`w-5 h-5 ${theme === 'neon' ? 'text-neon-blue' : 'text-primary-600'}`} />
                   </div>
-                  <span>github.com/username</span>
+                  <span>github.com/bluesky95129</span>
                 </a>
 
-                <a 
+                {/* <a 
                   href="https://linkedin.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
                     <Linkedin className={`w-5 h-5 ${theme === 'neon' ? 'text-neon-blue' : 'text-primary-600'}`} />
                   </div>
                   <span>linkedin.com/in/username</span>
-                </a>
+                </a> */}
               </div>
             </div>
 
